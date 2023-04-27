@@ -1,0 +1,19 @@
+.section{
+  /* background-color: whitesmoke; */
+  height: 250px;
+}
+.sliderContainer{
+  margin-top: 50px;
+  width: 97%;
+  margin: auto;
+  height: 100%;
+}
+.sliderCard{
+  margin-top: 20px;
+  height: 180px;
+}
+.slider{
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+}

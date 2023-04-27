@@ -1,0 +1,15 @@
+.storeContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.storeImg{
+ width: 100px;
+}
+.storeCard{
+  margin-top: 26px;
+  margin-left: 26px;
+}
+.loader{
+  margin-left: 50%;
+}

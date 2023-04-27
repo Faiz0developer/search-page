@@ -1,0 +1,63 @@
+.App-header {
+  background-color: rgb(13,110,253);
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main{
+  background-color: rgb(206, 204, 204);
+}
+.swiper-button-prev:after{
+  font-size: 20px !important;
+  color: black;
+
+
+}
+.swiper-button-next:after{
+  font-size: 20px !important;
+  color: black;
+}
+.swiper-button-prev{
+  position: absolute;
+  box-shadow: 0 0 2px rgb(174, 170, 170);
+  margin-left: -10px;
+  height: 130px;
+  background-color: white;
+  padding: 35px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.swiper-button-next{
+  position: absolute;
+  box-shadow: 0 0 2px rgb(174, 170, 170);
+  height: 130px;
+  background-color: white;
+  margin-right: -10px;
+  padding: 35px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button{
+  background-color: rgb(13, 192, 13);
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 7px 20px;
+  font-weight: 200;
+  color: white;
+}
+.button:hover, .button:active{
+  background-color: rgb(5, 163, 5);
+}
+.button:active{
+  transform: scale(0.9);
+}
+@media(max-width:450px){
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+}
